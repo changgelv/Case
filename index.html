@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>案件登记表</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 30px;
+            background-color: #f9f9f9;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            background-color: #fff;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #eee;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        input[type="text"], input[type="number"], input[type="date"] {
+            width: 95%;
+            padding: 4px;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <h1>案件登记表</h1>
+    <table>
+        <tr>
+            <th>序号</th>
+            <th>公司名称</th>
+            <th>立案时间</th>
+            <th>我方身份</th>
+            <th>对方当事人</th>
+            <th>案号</th>
+            <th>案由</th>
+            <th>标的金额（万元）</th>
+            <th>挽损金额（万元）</th>
+            <th>审理机关</th>
+            <th>案件进展</th>
+            <th>控制措施及后续方案</th>
+            <th>承办律师</th>
+            <th>问题发生时间</th>
+            <th>费用情况</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td><input type="text" placeholder="填写公司名称"></td>
+            <td><input type="date"></td>
+            <td><input type="text" placeholder="填写我方身份"></td>
+            <td><input type="text" placeholder="填写对方当事人"></td>
+            <td><input type="text" placeholder="填写案号"></td>
+            <td><input type="text" placeholder="填写案由"></td>
+            <td><input type="number" placeholder="万元"></td>
+            <td><input type="number" placeholder="万元"></td>
+            <td><input type="text" placeholder="填写审理机关"></td>
+            <td><input type="text" placeholder="填写案件进展"></td>
+            <td><input type="text" placeholder="填写控制措施及后续方案"></td>
+            <td><input type="text" placeholder="填写承办律师"></td>
+            <td><input type="date"></td>
+            <td><input type="text" placeholder="填写费用情况"></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td><input type="text" placeholder="填写公司名称"></td>
+            <td><input type="date"></td>
+            <td><input type="text" placeholder="填写我方身份"></td>
+            <td><input type="text" placeholder="填写对方当事人"></td>
+            <td><input type="text" placeholder="填写案号"></td>
+            <td><input type="text" placeholder="填写案由"></td>
+            <td><input type="number" placeholder="万元"></td>
+            <td><input type="number" placeholder="万元"></td>
+            <td><input type="text" placeholder="填写审理机关"></td>
+            <td><input type="text" placeholder="填写案件进展"></td>
+            <td><input type="text" placeholder="填写控制措施及后续方案"></td>
+            <td><input type="text" placeholder="填写承办律师"></td>
+            <td><input type="date"></td>
+            <td><input type="text" placeholder="填写费用情况"></td>
+        </tr>
+        <!-- 可以复制<tr>行继续添加更多案件 -->
+    </table>
+</body>
+</html>
