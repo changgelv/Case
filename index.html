@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>案件登记表</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #f9f9f9;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            background-color: #fff;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #eee;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        input[type="text"], input[type="date"] {
+            width: 95%;
+            padding: 5px;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <h1>案件登记表</h1>
+    <table>
+        <tr>
+            <th>序号</th>
+            <th>案件编号</th>
+            <th>案件名称</th>
+            <th>原告</th>
+            <th>被告</th>
+            <th>案由</th>
+            <th>案件状态</th>
+            <th>立案日期</th>
+            <th>结案日期</th>
+            <th>负责人</th>
+            <th>备注</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td><input type="text" placeholder="填写案件编号"></td>
+            <td><input type="text" placeholder="填写案件名称"></td>
+            <td><input type="text" placeholder="填写原告"></td>
+            <td><input type="text" placeholder="填写被告"></td>
+            <td><input type="text" placeholder="填写案由"></td>
+            <td><input type="text" placeholder="填写案件状态"></td>
+            <td><input type="date"></td>
+            <td><input type="date"></td>
+            <td><input type="text" placeholder="填写负责人"></td>
+            <td><input type="text" placeholder="备注"></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td><input type="text" placeholder="填写案件编号"></td>
+            <td><input type="text" placeholder="填写案件名称"></td>
+            <td><input type="text" placeholder="填写原告"></td>
+            <td><input type="text" placeholder="填写被告"></td>
+            <td><input type="text" placeholder="填写案由"></td>
+            <td><input type="text" placeholder="填写案件状态"></td>
+            <td><input type="date"></td>
+            <td><input type="date"></td>
+            <td><input type="text" placeholder="填写负责人"></td>
+            <td><input type="text" placeholder="备注"></td>
+        </tr>
+        <!-- 可以复制<tr>行继续添加更多案件 -->
+    </table>
+</body>
+</html>
